@@ -1,0 +1,47 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_lottie_plus (0.0.1):
+    - Flutter
+    - lottie-ios (~> 2.5.2)
+  - flutter_webview_plugin (0.0.1):
+    - Flutter
+  - local_auth (0.0.1):
+    - Flutter
+  - lottie-ios (2.5.3)
+  - shared_preferences (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_lottie_plus (from `.symlinks/plugins/flutter_lottie_plus/ios`)
+  - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
+  - local_auth (from `.symlinks/plugins/local_auth/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_lottie_plus:
+    :path: ".symlinks/plugins/flutter_lottie_plus/ios"
+  flutter_webview_plugin:
+    :path: ".symlinks/plugins/flutter_webview_plugin/ios"
+  local_auth:
+    :path: ".symlinks/plugins/local_auth/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_lottie_plus: d7d7fc3c41f6b24a23e19b49cd041fa7d6c80830
+  flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
+  local_auth: 17f985934bb4ab2637431e5b3fe1b2d6698d2051
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.8.4
