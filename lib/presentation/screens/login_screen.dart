@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'package:app_concept_flutter/presentation/screens/forgot_userid.dart';
-import 'package:app_concept_flutter/presentation/screens/forgot_password.dart';
 import 'dart:async';
 import 'package:app_concept_flutter/presentation/core/SizeConfig.dart';
 import 'package:local_auth/local_auth.dart';
@@ -270,7 +268,7 @@ class _LoginScreenState extends State<LoginScreen> with TickerProviderStateMixin
                                     decoration: TextDecoration.underline,
                                   ),
                                   recognizer: TapGestureRecognizer() ..onTap = () {
-                                    Navigator.push(context, MaterialPageRoute(builder: (context) => ForgotUser()));
+                                    //Navigator.push(context, MaterialPageRoute(builder: (context) => ForgotUser()));
                                   },
                                 ),
                                 TextSpan(
@@ -288,7 +286,7 @@ class _LoginScreenState extends State<LoginScreen> with TickerProviderStateMixin
                                     decoration: TextDecoration.underline,
                                   ),
                                   recognizer: TapGestureRecognizer() ..onTap = () {
-                                    Navigator.push(context, MaterialPageRoute(builder: (context) => ForgotPassword()));
+                                    //Navigator.push(context, MaterialPageRoute(builder: (context) => ForgotPassword()));
                                   },
                                 )
                               ]

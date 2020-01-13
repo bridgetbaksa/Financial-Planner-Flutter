@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:app_concept_flutter/presentation/screens/login_screen.dart';
 import 'package:app_concept_flutter/presentation/screens/welcome_screen.dart';
-import 'package:app_concept_flutter/presentation/screens/forgot_userid.dart';
 import 'package:app_concept_flutter/presentation/screens/app_tutorial.dart';
 import 'package:app_concept_flutter/presentation/screens/home_screen.dart';
 import 'package:app_concept_flutter/presentation/screens/create_account.dart';
@@ -27,7 +26,6 @@ class MyApp extends StatelessWidget {
         routes: {
           '/WelcomeScreen': (context) => WelcomeScreen(),
           '/LoginScreen': (context) => LoginScreen(),
-          '/ForgotUser': (context) => ForgotUser(),
           '/HomeScreen': (context) => HomeScreen(),
           '/CreateAccount': (context) => CreateAccount(),
           '/Home': (context) => Home(),
